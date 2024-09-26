@@ -1,0 +1,8 @@
+  1  grep "France,2019,PHP" < wilder.csv | wc -l
+  2  grep Biarritz wilder.csv | grep JavaScript > javascript_b.csv
+  3  grep Toulouse wilder.csv | grep JavaScript > javascript_t.csv
+  4  cat javascript_b.csv > javascript_biarritz_toulouse.csv
+  5  cat javascript_t.csv >> javascript_biarritz_toulouse.csv
+  6  history 
+  7  tail -n7  ~/.bash_history > history.txt 
+
